@@ -1,6 +1,8 @@
+package TreapTree;
+
 import java.util.Random;
 
-public class Main {
+public class TreapTreeTest {
 
     public static void main(String[] args) {
         TreapTree treap = new TreapTree();

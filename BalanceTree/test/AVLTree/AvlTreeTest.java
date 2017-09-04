@@ -1,8 +1,6 @@
-/**
- * Created by cx on 16/6/11.
- */
-public class Main {
+package AVLTree;
 
+public class AvlTreeTest {
     public static void main(String[] args) {
 //        int[] date = {1, 6, 4, 3, 9, 2, 8, 7, 11, 23, 15, 19, 20};
 
@@ -23,7 +21,7 @@ public class Main {
 //        avlTree.PrintTree();
 
         long time = System.currentTimeMillis();
-        for (int j = 0; j < 2000_000; j++) {
+        for (int j = 0; j < 20; j++) {
             avlTree.insert(j);
         }
         System.out.println("插入用时: " + (System.currentTimeMillis() - time) + "ms");
@@ -37,5 +35,4 @@ public class Main {
 //        System.out.println("删除用时: " + (System.currentTimeMillis() - time) + "ms");
 
     }
-
 }

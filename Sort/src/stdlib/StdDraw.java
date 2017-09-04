@@ -422,7 +422,7 @@ import javax.swing.KeyStroke;
  *  <li> Any method that is passed a {@code null} argument will throw an
  *       {@link IllegalArgumentException}.
  *  <li> Except as noted in the APIs, drawing an object outside (or partly outside)
- *       the canvas is permitted—however, only the part of the object that
+ *       the canvas is permitted—however, only the knapsack.part of the object that
  *       appears inside the canvas will be visible.
  *  <li> Except as noted in the APIs, all methods accept {@link Double#NaN},
  *       {@link Double#POSITIVE_INFINITY}, and {@link Double#NEGATIVE_INFINITY}
@@ -431,7 +431,7 @@ import javax.swing.KeyStroke;
  *  <li> Due to floating-point issues, an object drawn with an <em>x</em>- or
  *       <em>y</em>-coordinate that is way outside the canvas (such as the line segment
  *       from (0.5, –&infin;) to (0.5, &infin;) may not be visible even in the
- *       part of the canvas where it should be.
+ *       knapsack.part of the canvas where it should be.
  *  </ul>
  *  <p>
  *  <b>Performance tricks.</b>
