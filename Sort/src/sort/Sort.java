@@ -2,6 +2,9 @@ package sort;
 
 import java.util.Comparator;
 
+/**
+ * http://algs4.cs.princeton.edu/20sorting/
+ */
 public abstract class Sort {
 
     public abstract void sort(Comparable[] a);
